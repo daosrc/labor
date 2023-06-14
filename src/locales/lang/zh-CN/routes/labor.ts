@@ -1,0 +1,18 @@
+export default {
+  labor: '仲裁院',
+  guide: '仲裁指引',
+  guideAbout: '单位简介',
+  guideMap: '院内导航',
+  laborPersion: '仲裁人员',
+  Court: '开庭信息',
+  info: '信息查询',
+  case: '立案流程',
+  doc: '文书样式',
+  law: '法律法规',
+  organisations: '相关机构',
+  service: '便民服务',
+  booking: '预约申请',
+  scanQR: '扫码申请',
+  credential: '个人证件',
+  licence: '企业执照',
+};

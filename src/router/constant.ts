@@ -10,6 +10,7 @@ export const EXCEPTION_COMPONENT = () => import('/@/views/sys/exception/Exceptio
  * @description: default layout
  */
 export const LAYOUT = () => import('/@/layouts/default/index.vue');
+export const PAGE = () => import('/@/layouts/page/index.vue');
 
 /**
  * @description: parent-layout
