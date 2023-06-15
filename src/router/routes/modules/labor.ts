@@ -1,12 +1,12 @@
 import type { AppRouteModule } from '/@/router/types';
 
-import { PAGE } from '/@/router/constant';
+import { LABOR } from '/@/router/constant';
 import { t } from '/@/hooks/web/useI18n';
 
-const dashboard: AppRouteModule = {
+const labor: AppRouteModule = {
   path: '/labor',
   name: 'Labor',
-  component: PAGE,
+  component: LABOR,
   redirect: '/labor/main',
   meta: {
     orderNo: 10,
@@ -24,12 +24,12 @@ const dashboard: AppRouteModule = {
       },
     },
     {
-      path: 'analysis',
-      name: 'Analysis',
-      component: () => import('/@/views/dashboard/analysis/index.vue'),
+      path: 'depart',
+      name: 'depart',
+      component: () => import('/@/views/labor/department.vue'),
       meta: {
         // affix: true,
-        title: t('routes.dashboard.analysis'),
+        title: t('routes.labor.guideAbout'),
       },
     },
     {
@@ -43,4 +43,4 @@ const dashboard: AppRouteModule = {
   ],
 };
 
-export default dashboard;
+export default labor;

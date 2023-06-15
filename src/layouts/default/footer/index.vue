@@ -7,7 +7,6 @@
 
       <a @click="openWindow(DOC_URL)">{{ t('layout.footer.onlineDocument') }}</a>
     </div>
-    <div>Copyright &copy;2020 Vben Admin</div>
   </Footer>
 </template>
 
@@ -35,6 +34,7 @@
       const { currentRoute } = useRouter();
       const { prefixCls } = useDesign('layout-footer');
 
+      // eslint-disable-next-line no-undef
       const footerRef = ref<ComponentRef>(null);
       const { setFooterHeight } = useLayoutHeight();
 

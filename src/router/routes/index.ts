@@ -28,6 +28,15 @@ export const RootRoute: AppRouteRecordRaw = {
     title: 'Root',
   },
 };
+// 劳动仲裁admin页面
+export const laborAdmin: AppRouteRecordRaw = {
+  path: '/',
+  name: 'Root',
+  redirect: PageEnum.BASE_HOME,
+  meta: {
+    title: 'Root',
+  },
+};
 
 export const LoginRoute: AppRouteRecordRaw = {
   path: '/login',
